@@ -1,0 +1,17 @@
+{
+  "name": "Vault Run",
+
+  "//": "SCOPE IS DELIBERATELY SMALL. Rojo makes Studio match these files, which",
+  "//2": "means it DELETES anything in a managed path that has no file. Only add a",
+  "//3": "path here once every file under it has been exported from the place.",
+  "//4": "Expansion order is in docs/MIGRATION.md.",
+
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "ValidateRooms": { "$path": "tools/ValidateRooms.luau" }
+    }
+  }
+}

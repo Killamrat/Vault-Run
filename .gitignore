@@ -1,0 +1,24 @@
+# Roblox place files. These are large binaries git cannot diff, and committing
+# them creates exactly the conflicts this repo exists to avoid. The place is
+# built FROM this repo via Rojo, never the other way round.
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+
+# Rojo / toolchain
+/sourcemap.json
+/.rojo
+/build
+*.rbxm
+
+# Editor + OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Anything a tool drops in by accident
+*.log
+*.tmp
