@@ -1,5 +1,5 @@
 # Vault Run — Shared Design Repo
-Co-op push-your-luck heist roguelite for Roblox. 1–4 players.
+Jake and Cam's Vault Run — co-op push-your-luck heist roguelite for Roblox. 1–4 players.
 
 **Team:** Jake (levels, art direction — agent: Airis/Hermes) · Cam (code, systems — agent: Claude Project)
 
@@ -14,5 +14,6 @@ This repo is the shared brain between two humans and two AI agents. Game code li
 | `levels/ROOM_KIT_SPEC.md` | Room tile technical contract | Airis |
 | `levels/rooms/` | Per-room design docs | Airis |
 | `playtests/` | Dated session logs | shared |
+| `CAM_PROMPT.md` | Onboarding prompt for Cam's agent | — |
 
 **Protocol:** update docs after every session; pull before every session; write for an agent with zero chat context.
